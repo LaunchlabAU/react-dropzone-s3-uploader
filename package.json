@@ -19,7 +19,7 @@
     "test": "eval $(cat test/.env) mocha test/**/*.tests.js"
   },
   "dependencies": {
-    "react-s3-uploader": "^1.2.1",
+    "react-s3-uploader": "git://github.com/LaunchlabAU/react-s3-uploader.git#b548df2433274989023ccab4f32a74a9df186e07",
     "react-dropzone": "^3.2.2"
   },
   "peerDependencies": {
